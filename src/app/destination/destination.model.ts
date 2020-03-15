@@ -1,4 +1,6 @@
-export interface IDestination {
+import { ITravelItem } from '../utils/travel-item.model';
+
+export interface IDestination extends ITravelItem {
 	id: string;
 	name: string;
 	description: string;

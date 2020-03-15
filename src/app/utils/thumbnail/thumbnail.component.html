@@ -1,0 +1,11 @@
+<div class="card" [ngClass]="{'mod-clickable': routerLink}">
+	<div class="card-image">
+		<img [src]="travelItem.thumbnail" alt="thumbnail">
+	</div>
+	<div class="card-content">
+		<h2>{{travelItem.name}}</h2>
+		<p>
+			{{travelItem.description}}
+		</p>
+	</div>
+</div>
