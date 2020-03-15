@@ -32,17 +32,30 @@
 .card-content {
 	color: #666;
 }
-.presentation-section {
-	position: relative;
-	z-index: 1;
-	.breadcrumb {
-		margin-left: -12px;
-		.breadcrumb-item {
+
+.details-panel {
+	margin: 10vh 0;
+	
+	.presentation-section {
+		position: relative;
+		z-index: 1;
+		.breadcrumb {
+			margin-left: -12px;
+			.breadcrumb-item {
+				color: #fff;
+			}
+		}
+		h1, h2 {
 			color: #fff;
 		}
 	}
-	h1, h2 {
-		color: #fff;
+
+	.activities-section {
+		position: relative;
+		z-index: 1;
+		h2 {
+			color: #fff;
+		}
 	}
 }
 
